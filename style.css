@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+body{
+   text-align: center;
+   background-color: #BF7069;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.quadrado{
+    text-align: center;
+    width: 50px;
+    background-color: #dcdcdc;
+    display: inline-block;
+    padding: 40px;
+    font-size: 60px;
+    margin: 5px;
+    cursor: pointer;
+    color: #eee;
+}
+h1{
+    font-family: 'Concert One', cursive;
+    color: white;
+    font-size: 60px;
+}
+.jogador, .vencedor{
+    font-size: 20px;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: #eee;
+   
+}
+button{
+    font-size: 20px;
+    margin-top: 10px;
+    width: 150px;
+    height: 50px;
+    color: white;
+    text-transform: uppercase;
+    background-color: #730202;
+    border-radius: 20px;
+    border-bottom: none;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+button:hover {
+    transform: scale(1.1);
+    transition: all 0.8s;
+    color: #730202;
+    background-color: white;
+    font-weight: bold;
+} 
+footer{
+    margin-top: 20px;
+    color: white;
+}
