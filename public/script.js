@@ -122,7 +122,7 @@ function reiniciar()
 function verificaEmpate(quadrado1,quadrado2,quadrado3,quadrado4,quadrado5,quadrado6,quadrado7,quadrado8,quadrado9){
     if(quadrado1.style.background !== "#29AD00" && quadrado2.style.background !== "#29AD00" && quadrado3.style.background !== "#29AD00" && quadrado4.style.background !== "#29AD00" && quadrado5.style.background !== "#29AyD00" && quadrado6.style.background !== "#29AD00" && quadrado7.style.background !== "#29AD00" && quadrado8.style.background !== "#29AD00" && quadrado9.style.background !== "#29AD00" ){
         if(quadrado1.innerHTML !== "-" && quadrado2.innerHTML !== "-" && quadrado3.innerHTML !== "-" && quadrado4.innerHTML !== "-" && quadrado5.innerHTML !== "-" && quadrado6.innerHTML !== "-" && quadrado7.innerHTML !== "-" && quadrado8.innerHTML !== "-" && quadrado9.innerHTML !== "-" ){
-            alert("Ninguem ganhou pau no cu dos dois!!")
+            alert("Deu velha!!")
             reiniciar()
         }
     }
